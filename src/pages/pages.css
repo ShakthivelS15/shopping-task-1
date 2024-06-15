@@ -1,0 +1,214 @@
+body {
+  overflow-x: hidden; 
+}
+.icon {
+  font-size: 1.4rem;
+}
+
+.icon1 {
+  color: #fd4c82 ;
+}
+
+.fonticon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offertext {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.imgtop {
+  font-size: 1.5rem;
+  margin-right: 10px;
+
+}
+
+.imgtop1 {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.img-foot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.menhead{
+  font-size: 20px;
+}
+.footer-section {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.middle {
+  background-color: #c7e3f1;
+  border-radius: 15px;
+}
+
+.men {
+  width: 400px;
+  height: 300px;
+}
+
+.mentext {
+  font-size: 25px;
+
+}
+
+.menlink {
+  color: palevioletred;
+}
+
+.menlink2 {
+  font-size: 20px;
+}
+
+.menof {
+  margin-left: 75px;
+}
+
+.menimg {
+  border-radius: 15px;
+}
+
+.brand {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.brand1 {
+  max-width: 150px;
+}
+
+.brand2 {
+  max-width: 240px;
+}
+
+.brand3 {
+  max-width: 230px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.cap-border {
+  width: 100%;
+  border-top: 8px dashed #ccc;
+}
+
+
+
+.grilimg {
+  border-radius: 40px;
+  width: 405px;
+  height: 300px;
+}
+
+
+
+.offer {
+  background-image: url('../images//offer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.input {
+  margin-top: 180px;
+  margin-left: 450px;
+}
+@media (max-width: 657.98px) {
+  /* section 2 */
+  .info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+.section2text{
+  display: flex;
+}
+.menlink2{
+  font-size: 20px;
+}
+.img-foot{
+  
+  width: 130px;
+  height: 130px;
+}
+
+  .grilimg{
+       margin-bottom: 5px;
+  }
+  .brand1{
+    width: 25%;
+    margin-top: 10%;
+    
+  }
+  .brand2{
+    width: 40%;
+    margin-top: 25%;
+  } .brand3{
+    width: 45%;
+
+  }
+  /* men offer */
+    .menlagre{
+      width: 100%;
+      height: 100%;
+     
+    }
+    .menhead{
+      margin-top: 20px;
+    }
+  /*gril lastfoot */
+  .mg-foot{
+    width: 100px;
+    height: 100px;
+  }
+  .info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+
+@media (max-width:1000px){
+  .info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .brand1{
+    width: 25%;
+    margin-top: 10%;
+    
+  }
+  .brand2{
+    width: 40%;
+    margin-top: 25%;
+  } .brand3{
+    width: 45%;
+
+  }
+   /* men offer */
+   .menlagre{
+    width: 50%;
+    height: auto;
+    margin-right: 45%;
+  }
+
+}
